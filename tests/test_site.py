@@ -25,7 +25,7 @@ def browser():
 
 
 def test_page_title(browser):
-    assert browser.title == "Wrong-Title"
+    assert browser.title == "FA23-BCT-042"
 
 
 def test_heading(browser):
