@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FA23-BCT-042</title>
+</head>
+<body>
+    <h1>Welcome to My CI/CD Project</h1>
+
+    <p>Name: Syeda Aaminah</p>
+    <p>Roll Number: FA23-BCT-042</p>
+
+    <input type="text" id="userInput" placeholder="Enter your message">
+
+    <button id="submitBtn" onclick="showMessage()">Submit</button>
+
+    <p id="output"></p>
+
+    <script>
+        function showMessage() {
+            let message = document.getElementById("userInput").value;
+            document.getElementById("output").innerText = message;
+        }
+    </script>
+</body>
+</html>
